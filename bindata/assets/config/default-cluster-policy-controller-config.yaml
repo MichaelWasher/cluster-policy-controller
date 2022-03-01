@@ -6,3 +6,5 @@ servingInfo:
   clientCA: /etc/kubernetes/static-pod-certs/configmaps/client-ca/ca-bundle.crt
   certFile: /etc/kubernetes/static-pod-resources/secrets/serving-cert/tls.crt
   keyFile: /etc/kubernetes/static-pod-resources/secrets/serving-cert/tls.key
+securityAllocator:
+  uidAllocatorRange: 1000-1999/100
